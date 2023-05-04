@@ -13,10 +13,15 @@ const GalleryItem = ({ hit }) => {
   return (
     <>
       <Modal show={showModal} onCancel={closeModalHandler} header="Details">
-        <ItemDetails hit={hit}/>
+        <ItemDetails hit={hit} />
       </Modal>
       <figure className="gallery-item" onClick={openModalHandler}>
-        <img src={hit.largeImageURL} alt={hit.tags}  onLoad={() => setIsLoading(true)} style={isLoading ? {} : {display: 'none'}}/>
+        <img
+          src={hit.largeImageURL}
+          alt={hit.tags}
+          onLoad={() => setIsLoading(true)}
+          style={isLoading ? {} : { display: "none" }}
+        />
       </figure>
     </>
   );
