@@ -1,0 +1,13 @@
+.section-gallery {
+  height: 100%;
+  margin-top: 6.4rem;
+}
+
+.gallery {
+  margin-top: 1.2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25vh 25vh 25vh;
+  align-content: center;
+  gap: 0.8rem;
+}

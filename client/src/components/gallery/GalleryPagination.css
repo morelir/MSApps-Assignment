@@ -1,0 +1,27 @@
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.chervonDoubleLeftIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.chervonDoubleRightIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.pagination .center-button {
+  background-color: #495057;
+  border-color: #495057;
+}
+
+.pagination .center-button:hover,
+.pagination .center-button:active {
+  background-color: #212529;
+  border-color: #212529;
+}

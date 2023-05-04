@@ -1,0 +1,7 @@
+.item-details {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  column-gap: 0.8rem;
+}
